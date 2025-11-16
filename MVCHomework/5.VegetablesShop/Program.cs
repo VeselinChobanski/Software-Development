@@ -1,10 +1,15 @@
-﻿namespace _5.VegetablesShop
+﻿using _5.VegetablesShop.View;
+
+namespace _5.VegetablesShop
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ServicesShop services = new ServicesShop();
+            ControllerShop controller = new ControllerShop(services);
+            ViewShop view = new ViewShop(controller);
+            view.Print();
         }
     }
 }
