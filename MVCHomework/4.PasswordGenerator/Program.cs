@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ServicesPassword servicesPassword = new ServicesPassword();
+            ControllerPassword controller = new ControllerPassword(servicesPassword);
+            ViewPassword view = new ViewPassword(controller);
+            view.Print();
         }
     }
 }
