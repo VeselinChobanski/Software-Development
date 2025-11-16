@@ -1,7 +1,15 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\C#\\Software-Development\\MVCHomework\\1.TransportPrice\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1782EE54-E8EA-4A94-A2CB-706025960D35}|..\\4.PasswordGenerator\\4.PasswordGenerator.csproj|d:\\c#\\software-development\\mvchomework\\4.passwordgenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4DBC02-EA73-BD7E-47CD-94F1BE90673A}|1.TransportPrice.csproj|d:\\c#\\software-development\\mvchomework\\1.transportprice\\model\\modelinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4DBC02-EA73-BD7E-47CD-94F1BE90673A}|1.TransportPrice.csproj|solutionrelative:model\\modelinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +17,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +26,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\Software-Development\\MVCHomework\\4.PasswordGenerator\\Program.cs",
+              "RelativeDocumentMoniker": "..\\4.PasswordGenerator\\Program.cs",
+              "ToolTip": "D:\\C#\\Software-Development\\MVCHomework\\4.PasswordGenerator\\Program.cs",
+              "RelativeToolTip": "..\\4.PasswordGenerator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T11:29:28.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModelInput.cs",
+              "DocumentMoniker": "D:\\C#\\Software-Development\\MVCHomework\\1.TransportPrice\\Model\\ModelInput.cs",
+              "RelativeDocumentMoniker": "Model\\ModelInput.cs",
+              "ToolTip": "D:\\C#\\Software-Development\\MVCHomework\\1.TransportPrice\\Model\\ModelInput.cs",
+              "RelativeToolTip": "Model\\ModelInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T11:28:26.553Z",
+              "EditorCaption": ""
             }
           ]
         }
