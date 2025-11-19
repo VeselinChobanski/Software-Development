@@ -1,0 +1,15 @@
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\2.OnTimeExam\bin\Debug\net9.0\2.OnTimeExam.exe
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\2.OnTimeExam\bin\Debug\net9.0\2.OnTimeExam.deps.json
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\2.OnTimeExam\bin\Debug\net9.0\2.OnTimeExam.runtimeconfig.json
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\2.OnTimeExam\bin\Debug\net9.0\2.OnTimeExam.dll
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\2.OnTimeExam\bin\Debug\net9.0\2.OnTimeExam.pdb
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\2.OnTimeExam\obj\Debug\net9.0\2.OnTimeExam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\2.OnTimeExam\obj\Debug\net9.0\2.OnTimeExam.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\2.OnTimeExam\obj\Debug\net9.0\2.OnTimeExam.AssemblyInfo.cs
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\2.OnTimeExam\obj\Debug\net9.0\2.OnTimeExam.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\2.OnTimeExam\obj\Debug\net9.0\2.OnTimeExam.sourcelink.json
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\2.OnTimeExam\obj\Debug\net9.0\2.OnTimeExam.dll
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\2.OnTimeExam\obj\Debug\net9.0\refint\2.OnTimeExam.dll
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\2.OnTimeExam\obj\Debug\net9.0\2.OnTimeExam.pdb
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\2.OnTimeExam\obj\Debug\net9.0\2.OnTimeExam.genruntimeconfig.cache
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\2.OnTimeExam\obj\Debug\net9.0\ref\2.OnTimeExam.dll
