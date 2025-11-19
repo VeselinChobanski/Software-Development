@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../2.OnTimeExam/2.OnTimeExam.csproj" />
+  <Project Path="../3.Histogram/3.Histogram.csproj" Id="871beeaa-e32a-4941-87b8-b047a4be15cf" />
+  <Project Path="../4.PasswordGenerator/4.PasswordGenerator.csproj" Id="1782ee54-e8ea-4a94-a2cb-706025960d35" />
+  <Project Path="../TestTransport/TestTransport.csproj" Id="ee1b0aa1-cd26-473e-beca-a84a30153f77" />
+  <Project Path="1.TransportPrice.csproj" />
+</Solution>

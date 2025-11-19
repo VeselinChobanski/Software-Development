@@ -1,0 +1,15 @@
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\1.TransportPrice\bin\Debug\net9.0\1.TransportPrice.exe
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\1.TransportPrice\bin\Debug\net9.0\1.TransportPrice.deps.json
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\1.TransportPrice\bin\Debug\net9.0\1.TransportPrice.runtimeconfig.json
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\1.TransportPrice\bin\Debug\net9.0\1.TransportPrice.dll
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\1.TransportPrice\bin\Debug\net9.0\1.TransportPrice.pdb
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\1.TransportPrice\obj\Debug\net9.0\1.TransportPrice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\1.TransportPrice\obj\Debug\net9.0\1.TransportPrice.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\1.TransportPrice\obj\Debug\net9.0\1.TransportPrice.AssemblyInfo.cs
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\1.TransportPrice\obj\Debug\net9.0\1.TransportPrice.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\1.TransportPrice\obj\Debug\net9.0\1.TransportPrice.sourcelink.json
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\1.TransportPrice\obj\Debug\net9.0\1.TransportPrice.dll
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\1.TransportPrice\obj\Debug\net9.0\refint\1.TransportPrice.dll
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\1.TransportPrice\obj\Debug\net9.0\1.TransportPrice.pdb
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\1.TransportPrice\obj\Debug\net9.0\1.TransportPrice.genruntimeconfig.cache
+C:\Users\Student\Desktop\CodeReview\Software-Development\MVCHomework\1.TransportPrice\obj\Debug\net9.0\ref\1.TransportPrice.dll
