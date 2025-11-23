@@ -1,11 +1,7 @@
-﻿using _1.TransportPrice.Model;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _1.TransportPrice.Services
+﻿
+namespace _1.TransportPrice
 {
-    internal class ServiceTransport
+    public class ServiceTransport
     {
         public Taxi taxi = new Taxi(0.79, 0.90, 0, 0.70);
         public Transports bus = new Bus(0.09, 0.09, 20);

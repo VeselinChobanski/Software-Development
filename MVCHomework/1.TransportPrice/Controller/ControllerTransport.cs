@@ -1,11 +1,6 @@
-﻿using _1.TransportPrice.Model;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _1.TransportPrice.Services
+﻿namespace _1.TransportPrice
 {
-    internal class ControllerTransport
+    public class ControllerTransport
     {
         ServiceTransport _serviceTransport;
 

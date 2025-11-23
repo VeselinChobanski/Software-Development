@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _1.TransportPrice.Model
+﻿namespace _1.TransportPrice
 {
-    internal class Transports
+    public class Transports
     {
         public double DayPrice { get; set; }
         public double NightPrice { get; set; }
@@ -18,7 +14,7 @@ namespace _1.TransportPrice.Model
         }
     }
 
-    internal class Taxi : Transports
+    public class Taxi : Transports
     {
         public double TaxiStart { get; set; }
         public Taxi(double dayPrice, double nightPrice, int minDistance, double taxiStart) : base(dayPrice, nightPrice, minDistance)
@@ -28,7 +24,7 @@ namespace _1.TransportPrice.Model
         }
     }
 
-    internal class Bus : Transports
+    public class Bus : Transports
     {
         public Bus(double dayPrice, double nightPrice, int minDistance) : base(dayPrice, nightPrice, minDistance)
         {
@@ -36,7 +32,7 @@ namespace _1.TransportPrice.Model
 
         }
     }
-    internal class Train : Transports
+    public class Train : Transports
     {
         public Train(double dayPrice, double nightPrice, int minDistance) : base(dayPrice, nightPrice, minDistance)
         {

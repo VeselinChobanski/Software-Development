@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _2.OnTimeExam.Model
 {
-    internal class ModelExam
+    public class ModelExam
     {
         public int ExamHour { get; set; }
         public int ExamMinute { get; set; }

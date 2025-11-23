@@ -1,6 +1,4 @@
-﻿using _1.TransportPrice.View;
-
-namespace _1.TransportPrice
+﻿namespace _1.TransportPrice
 {
     internal class Program
     {

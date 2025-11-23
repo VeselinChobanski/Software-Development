@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _2.OnTimeExam
 {
-    internal class ControllerExam
+    public class ControllerExam
     {
         ServiceExam _service;
 

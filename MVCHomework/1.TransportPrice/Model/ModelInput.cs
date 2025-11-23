@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _1.TransportPrice.Model
+﻿
+namespace _1.TransportPrice
 {
-    internal class ModelInput
+    public class ModelInput
     {
         public int Distance { get; set; }
 

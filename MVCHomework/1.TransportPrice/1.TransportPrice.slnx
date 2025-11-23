@@ -1,6 +1,16 @@
 <Solution>
+  <Folder Name="/Tests/">
+    <Project Path="../ExamTest/ExamTest.csproj" Id="312cebc3-69a8-40c0-8f34-14ab57f950dd" />
+    <Project Path="../TransportTest/TransportTest.csproj" Id="0abbed45-5aeb-4865-a4c2-f8bb01c02ff3" />
+  </Folder>
+  <Project Path="../10.TilesRepair/10.TilesRepair.csproj" Id="8aeb7652-ce7c-4de4-9b76-d1be23dec8a6" />
   <Project Path="../2.OnTimeExam/2.OnTimeExam.csproj" />
   <Project Path="../3.Histogram/3.Histogram.csproj" Id="871beeaa-e32a-4941-87b8-b047a4be15cf" />
   <Project Path="../4.PasswordGenerator/4.PasswordGenerator.csproj" Id="1782ee54-e8ea-4a94-a2cb-706025960d35" />
+  <Project Path="../5.VegetablesShop/5.VegetablesShop.csproj" Id="398bd2af-9f3c-43c1-9584-edd099295b59" />
+  <Project Path="../6.Pipe/6.Pipe.csproj" Id="8f46dfce-b066-495c-8888-562bf8a1af43" />
+  <Project Path="../7.Adventure/7.Adventure.csproj" Id="6cf69c31-ec02-4be4-a9cc-71948c5e8f92" />
+  <Project Path="../8.Devide/8.Devide.csproj" Id="27004577-e5dd-4c59-b019-a325aff30653" />
+  <Project Path="../9.MagicNumber/9.MagicNumber.csproj" Id="1059a732-1549-4cde-a9d9-b19c46f2669d" />
   <Project Path="1.TransportPrice.csproj" />
 </Solution>
