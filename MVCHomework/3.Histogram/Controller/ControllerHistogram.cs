@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _3.Histogram
 {
-    internal class ControllerHistogram
+    public class ControllerHistogram
     {
         ServiceHistogram _service;
 

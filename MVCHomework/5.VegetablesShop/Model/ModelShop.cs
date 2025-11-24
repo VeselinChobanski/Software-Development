@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _5.VegetablesShop
 {
-    internal class ModelShop
+    public class ModelShop
     {
 
         public double _pricePerKgVegetable;

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _4.PasswordGenerator
 {
-    internal class ControllerPassword
+    public class ControllerPassword
     {
 
         ServicesPassword _services;

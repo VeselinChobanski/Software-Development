@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _5.VegetablesShop
 {
-    internal class ServicesShop
+    public class ServicesShop
     {
 
         public double CalculatePrice(ModelShop model)

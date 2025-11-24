@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _3.Histogram.View
 {
-    internal class ViewHistogram
+    public class ViewHistogram
     {
         ControllerHistogram _controller;
 
@@ -15,16 +15,83 @@ namespace _3.Histogram.View
 
         public void PrintInfo()
         {
-            int n = int.Parse(Console.ReadLine());
-            List<int> listModel = new List<int>();
-            for (int i = 0; i < n; i++)
+            string n = Console.ReadLine();
+            List<string> listModel = new List<string>();
+            bool coughtExN = TryCatchCheckN(n);
+            if (coughtExN == false)
             {
-                listModel.Add(int.Parse(Console.ReadLine()));
+                for (int i=0; i < int.Parse(n);  i++)
+                {
+                    listModel.Add(Console.ReadLine());
+                }
             }
 
-            Console.WriteLine($"{_controller.ResultOutput(new ModelHistogram(n, listModel))}");
+            List<int> listInt = new List<int>();
+            bool coughtExList = TryCatchCheckList(listModel);
+            if (coughtExList == false)
+            {
+                foreach(var item in listModel)
+                {
+                    listInt.Add(int.Parse(item));
+                }
+            }
+
+           if(coughtExN == false && coughtExList == false)
+            {
+                Console.WriteLine($"{_controller.ResultOutput(new ModelHistogram(int.Parse(n), listInt))}");
+            }
             
 
+        }
+        public void ThrowsExeptionsN(string n )
+        {
+            int nInt = int.Parse(n);
+            if (nInt < 1)
+            {
+                throw new Exception("Negative N");
+            }
+        }
+        public void ThrowsExeptionsList( List<string> numbers)
+        {
+          
+           foreach (var item in numbers)
+            {
+                int num = int.Parse(item);
+            }
+
+            
+        }
+
+        public bool TryCatchCheckList( List<string> numbers)
+        {
+            bool coughtEx = false;
+            try
+            {
+                ThrowsExeptionsList(numbers);
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine(ex.Message);
+                coughtEx = true;
+            }
+
+            return coughtEx;
+        }
+
+        public bool TryCatchCheckN(string n)
+        {
+            bool coughtEx = false;
+            try
+            {
+                ThrowsExeptionsN(n);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                coughtEx = true;
+            }
+
+            return coughtEx;
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _3.Histogram
 {
-    internal class ModelHistogram
+    public class ModelHistogram
     {
 
         public int N {  get; set; }

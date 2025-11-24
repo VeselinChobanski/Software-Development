@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _5.VegetablesShop
 {
-    internal class ControllerShop
+    public class ControllerShop
     {
         ServicesShop _services;
 

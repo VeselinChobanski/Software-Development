@@ -1,7 +1,10 @@
 <Solution>
   <Folder Name="/Tests/">
     <Project Path="../ExamTest/ExamTest.csproj" Id="312cebc3-69a8-40c0-8f34-14ab57f950dd" />
+    <Project Path="../HistogramTest/HistogramTest.csproj" Id="abfeb40f-ee82-4929-9179-05a59255b037" />
+    <Project Path="../Password/Password.csproj" Id="2dcdfd54-f3a1-4dd5-b2e1-504628fffa1a" />
     <Project Path="../TransportTest/TransportTest.csproj" Id="0abbed45-5aeb-4865-a4c2-f8bb01c02ff3" />
+    <Project Path="../VegetableTest/VegetableTest.csproj" Id="43ad8a79-3f68-4722-80e6-05c2fc6a4b42" />
   </Folder>
   <Project Path="../10.TilesRepair/10.TilesRepair.csproj" Id="8aeb7652-ce7c-4de4-9b76-d1be23dec8a6" />
   <Project Path="../2.OnTimeExam/2.OnTimeExam.csproj" />

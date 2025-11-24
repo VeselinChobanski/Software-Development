@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _5.VegetablesShop.View
 {
-    internal class ViewShop
+    public class ViewShop
     {
         ControllerShop _controller;
 
@@ -15,14 +15,46 @@ namespace _5.VegetablesShop.View
         }
         public void Print()
         {
-            double VegePerKg = double.Parse(Console.ReadLine());
-            double FruitPerKg = double.Parse(Console.ReadLine());
-            int VegKg = int.Parse(Console.ReadLine());
-            int FruitKg = int.Parse(Console.ReadLine());
+            string VegePerKg = Console.ReadLine();
+            string FruitPerKg = Console.ReadLine();
+            string VegKg = Console.ReadLine();
+            string FruitKg =Console.ReadLine();
 
-            double result = _controller.Info(new ModelShop(VegePerKg, FruitPerKg, VegKg, FruitKg));
-            result /= 1.94;
-            Console.WriteLine(result);
+            bool isCought = TryCatchExeptions(VegePerKg, FruitPerKg, VegKg, FruitKg);
+
+            if (isCought == false)
+            {
+                double result = _controller.Info(new ModelShop(double.Parse(VegePerKg),double.Parse( FruitPerKg),int.Parse( VegKg), int.Parse(FruitKg)));
+                result /= 1.94;
+                Console.WriteLine(result);
+            }
+
+
+
+        }
+
+        public void ThrowsExeptions(string vegePerKg, string fruitPerKg, string vegKg, string fruitKg)
+        {
+            double vegePerKgInd = double.Parse(vegePerKg);
+            double fruitPerKgd = double.Parse(fruitPerKg);
+            int vegKgInt = int.Parse(vegKg);
+            int fruitKgInt = int.Parse(fruitKg);
+        }
+
+        public bool TryCatchExeptions(string vegePerKg, string fruitPerKg, string vegKg, string fruitKg)
+        {
+            bool isCought = false;
+            try
+            {
+                ThrowsExeptions(vegePerKg,  fruitPerKg,  vegKg,  fruitKg);
+            }
+            catch(FormatException ex)
+            {
+                Console.WriteLine(ex.Message);
+                isCought = true;
+            }
+
+            return isCought;
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _4.PasswordGenerator.Model
 {
-    internal class ModelPassword
+    public class ModelPassword
     {
 
         public int N;
