@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _7.Adventure
 {
-    internal class ServicesAdv
+    public class ServicesAdv
     {
         public string Calculate(ModelAdv model)
         {

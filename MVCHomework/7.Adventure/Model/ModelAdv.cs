@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _7.Adventure
 {
-    internal class ModelAdv
+    public class ModelAdv
     {
 
         public double Budget ;

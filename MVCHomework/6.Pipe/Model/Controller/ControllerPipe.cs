@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _6.Pipe
 {
-    internal class ControllerPipe
+    public class ControllerPipe
     {
         ServicesPipe _service;
 

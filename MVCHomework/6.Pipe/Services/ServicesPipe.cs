@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _6.Pipe
 {
-    internal class ServicesPipe
+    public class ServicesPipe
     {
 
         public string CalculatePercentage(ModelPipe model)

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _9.MagicNumber
 {
-    internal class ControllerMagic
+    public class ControllerMagic
     {
 
         ServicesMagic _servicesMagic;

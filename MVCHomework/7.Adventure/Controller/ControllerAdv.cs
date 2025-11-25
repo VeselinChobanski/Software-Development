@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _7.Adventure
 {
-    internal class ControllerAdv
+    public class ControllerAdv
     {
 
         ServicesAdv _servicesAdv;

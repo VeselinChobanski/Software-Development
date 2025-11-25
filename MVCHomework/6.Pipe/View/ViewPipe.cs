@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _6.Pipe
 {
-    internal class ViewPipe
+    public class ViewPipe
     {
         ControllerPipe _controller;
 
@@ -15,12 +15,51 @@ namespace _6.Pipe
 
         public void Print()
         {
-            int V = int.Parse(Console.ReadLine());
-            int P1 = int.Parse(Console.ReadLine()); 
-            int P2 = int.Parse(Console.ReadLine()); 
-            double H = double.Parse(Console.ReadLine());
+            string V = Console.ReadLine();
+            string P1 = Console.ReadLine(); 
+            string P2 = Console.ReadLine(); 
+            string H = Console.ReadLine();
 
-            Console.WriteLine(_controller.GetOutput(new ModelPipe(V,P1,P2,H)));
+            bool isCought = TryCatchExeptionsPipe(V,P1,P2,H);
+            if(isCought == false)
+            {
+                Console.WriteLine(_controller.GetOutput(new ModelPipe(int.Parse(V), int.Parse(P1), int.Parse(P2), double.Parse(H))));
+            }
+
+            
+        }
+        public void ThrowsExeptionsPipe(string res1, string res2, string res3, string res4)
+        {
+            int res1Int = int.Parse(res1);
+            int res2Int = int.Parse(res2);
+            int res3Int = int.Parse(res3);
+            double res4Int = int.Parse(res4);
+            if (res1Int < 0 || res2Int < 0 || res3Int < 0 || res4Int < 0)
+            {
+                throw new Exception("Negative number");
+            }
+        }
+
+        public bool TryCatchExeptionsPipe(string res1, string res2, string res3, string res4)
+        {
+            bool isCought = false;
+
+            try
+            {
+                ThrowsExeptionsPipe( res1,  res2,  res3,  res4);
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine(ex.Message);
+                isCought = true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                isCought = true;
+            }
+
+            return isCought;
         }
     }
 }

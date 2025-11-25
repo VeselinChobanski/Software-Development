@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _9.MagicNumber
 {
-    internal class ServicesMagic
+    public class ServicesMagic
     {
         public List<int> Result;
 

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _9.MagicNumber
 {
-    internal class ViewMagic
+    public class ViewMagic
     {
         ControllerMagic _controllerMagic;
 
@@ -16,8 +16,35 @@ namespace _9.MagicNumber
         public void Display()
 
         {
-            int input = int.Parse(Console.ReadLine());
-            Console.WriteLine(_controllerMagic.GetNumbers(new ModelMagic(input)));
+            string input = Console.ReadLine();
+            bool isCought = TryCatchMagic(input);
+
+            if (isCought == false)
+            {
+                Console.WriteLine(_controllerMagic.GetNumbers(new ModelMagic(int.Parse(input))));
+            }
+        }
+
+        public void ThrowsExeptionsMagic(string number)
+        {
+            int inputInt = int.Parse(number);
+        }
+
+        public bool TryCatchMagic(string number)
+        {
+            bool isCpought = false;
+
+            try
+            {
+                ThrowsExeptionsMagic(number);
+            }
+            catch(Exception ex)
+            {
+                isCpought = true;
+                Console.WriteLine(ex.Message);
+            }
+            return isCpought;
+                
         }
 
     }

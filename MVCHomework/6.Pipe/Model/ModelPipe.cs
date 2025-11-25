@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _6.Pipe
 {
-    internal class ModelPipe
+    public class ModelPipe
     {
         public int V;
         public int P1;
